@@ -1,7 +1,7 @@
 import {CreateReceiptUseCase} from '../application/createReceiptUseCase';
 import {CreateReceiptController} from '../infrastructure/controllers/createReceiptController'
 import {MongoReceiptRepository} from '../infrastructure/repositories/mongoRepository';
-import { NewReceiptNotification } from './services/Rabbit/NewReceiptNotification';
+import { NewReceiptNotification } from './services/Rabbit/newReceiptNotification';
 import { NotificationNewReceipt } from '../application/services/notificationNewReceipt';
 import {NewSocket} from './services/socket.io/newSocket';
 
