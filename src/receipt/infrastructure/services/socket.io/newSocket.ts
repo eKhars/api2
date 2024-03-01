@@ -7,7 +7,7 @@ export class NewSocket implements ISocket {
   private url: string;
 
   constructor() {
-    this.url = process.env.SOCKET_URL || 'http://localhost:3002';
+    this.url = process.env.SOCKET_URL || 'https://websocket-urub.onrender.com';
   }
 
   async emitSocket(event: string, data: any): Promise<boolean> {
